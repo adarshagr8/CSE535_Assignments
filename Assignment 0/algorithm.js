@@ -20,7 +20,7 @@ function invertString(input) {
 			answer += String.fromCharCode(155 - code);
 		}
 		else {
-			answer += output[i];
+			answer += input[i];
 		}
 	} 
 	return answer;
